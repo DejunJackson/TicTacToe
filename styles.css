@@ -1,0 +1,117 @@
+body {
+  background-color: #00adb5;
+}
+
+#One {
+  height: calc(100%/3.5);
+  width: calc(100%/3.5);
+  background-color: white;
+  border-style: solid;
+  display: inline-block;
+  overflow: hidden;
+}
+
+#Two {
+  height: calc(100%/3.5);
+  width: calc(100%/3.5);
+  background-color: white;
+  border-style: solid;
+  display: inline-block;
+  overflow: hidden;
+}
+
+#Three {
+  height: calc(100%/3.5);
+  width: calc(100%/3.5);
+  background-color: white;
+  border-style: solid;
+  display: inline-block;
+  overflow: hidden;
+}
+
+#Four {
+  height: calc(100%/3.5);
+  width: calc(100%/3.5);
+  background-color: white;
+  border-style: solid;
+  display: inline-block;
+  overflow: hidden;
+}
+
+#Five {
+  height: calc(100%/3.5);
+  width: calc(100%/3.5);
+  background-color: white;
+  border-style: solid;
+  display: inline-block;
+  overflow: hidden;
+}
+
+#Six {
+  height: calc(100%/3.5);
+  width: calc(100%/3.5);
+  background-color: white;
+  border-style: solid;
+  display: inline-block;
+  overflow: hidden;
+}
+
+#Seven {
+  height: calc(100%/3.5);
+  width: calc(100%/3.5);
+  background-color: white;
+  border-style: solid;
+  display: inline-block;
+  overflow: hidden;
+}
+
+#Eight {
+  height: calc(100%/3.5);
+  width: calc(100%/3.5);
+  background-color: white;
+  border-style: solid;
+  display: inline-block;
+  overflow: hidden;
+}
+
+#Nine {
+  height: calc(100%/3.5);
+  width: calc(100%/3.5);
+  background-color: white;
+  border-style: solid;
+  display: inline-block;
+  overflow: hidden;
+}
+
+#playerTurn {
+  font-size: 5rem;
+  font-family: 'Indie Flower', cursive;
+  position: relative;
+  text-align: center;
+  margin-right: 75px;
+}
+
+.square {
+  height: 500px;
+  width: 500px;
+  background-color: #00adb5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.addChar {
+  font-size: 9rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  bottom: 130px;
+  font-family: 'Permanent Marker', cursive;
+}
+footer{
+  position: relative;
+  margin-top: 30%;
+  margin-left: 40%;
+}
