@@ -24,6 +24,8 @@ $(".smaller-square").on("click", function() {
       player = 2;
       $("#playerTurn").html("Player " + player + "'s Turn");
       $("#" + this.id).off('click');
+    } else {
+      $(".smaller-square").unbind("click");
     }
 
   } else if (player === 2) {
@@ -35,6 +37,8 @@ $(".smaller-square").on("click", function() {
       player = 1;
       $("#playerTurn").html("Player " + player + "'s Turn");
       $("#" + this.id).off('click');
+    } else {
+      $(".smaller-square").unbind("click");
     }
   }
 });
@@ -44,8 +48,10 @@ function checkGameState(playerScore, player) {
 
   for (var i = 0; i < winningCombos.length; i++) {
     if (winningCombos[i].every(elem => playerScore.includes(elem)) === true) {
-      return game = true, $("#playerTurn").html("Player " + player + " Wins!!!");
-
+      return game = true, $("#playerTurn").html("🚩 Player " + player + " Wins!!! 🚩");
     }
   }
+  if(playerScore.length === 5){
+    return game = true, $("#playerTurn").html("⚔️ Draw! ⚔️");
+}
 };
