@@ -86,9 +86,8 @@ body {
 #playerTurn {
   font-size: 5rem;
   font-family: 'Share Tech Mono', monospace;
-  position: relative;
   text-align: center;
-  margin-right: 75px;
+
 }
 
 .square {
@@ -112,9 +111,9 @@ body {
   font-family: 'Permanent Marker', cursive;
 }
 footer{
-  position: relative;
-  margin-top: 600px;
-  margin-left: 40%;
-
-
+  position: absolute;
+  bottom: 0;
+  width: 97.5%;
+  height: 2.5rem;
+  text-align: center;
 }
