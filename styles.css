@@ -115,9 +115,12 @@ body {
   font-family: 'Permanent Marker', cursive;
 }
 footer{
-  position: relative;
+  position: fixed;
   bottom: 0;
   width: 97.5%;
   height: 2.5rem;
   text-align: center;
+}
+.smaller-square{
+  margin: auto;
 }
