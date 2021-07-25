@@ -89,6 +89,8 @@ body {
   font-size: 5rem;
   font-family: 'Share Tech Mono', monospace;
   text-align: center;
+  position: relative;
+  margin: auto;
 }
 
 .container{
@@ -96,19 +98,18 @@ body {
   height: 70vh;
   position: relative;
   margin: auto;
+  margin-top: 7%
 }
 .header{
   position: relative;
-  left:0;
-  right:0;
-  top:0;
+
 }
 
 .square {
   height: 500px;
   width: 500px;
   background-color: #00adb5;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   margin: -250px 0 0 -250px;
@@ -123,12 +124,9 @@ body {
   font-family: 'Permanent Marker', cursive;
 }
 footer{
+  margin: auto;
   position: relative;
-  width: 97.5%;
+  width: 50%;
   height: 2.5rem;
   text-align: center;
-}
-
-.smaller-square{
-  margin: auto;
 }
